@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mohammad Yusuf - Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .icon-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5vh;
+    }
+
+    .icon {
+      font-size: clamp(80px, 20vh, 300px); /* scales with height only */
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .icon:hover {
+      color: #0077b5;
+    }
+
+    .icon.gmail:hover {
+      color: #d14836;
+    }
+
+    .icon.resume:hover {
+      color: #28a745;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="icon-container">
+    <a class="icon" href="https://www.linkedin.com/in/mohammad-shaikh/" target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a class="icon gmail" href="mailto:myshaikh237@gmail.com" title="Send Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a class="icon resume" href="https://drive.google.com/file/d/191tzU4Ea8BJMRb7ExRbgllYWBIgUkUQd/view?usp=sharing" target="_blank" title="View Resume">
+      <i class="fas fa-file-alt"></i>
+    </a>
+  </div>
+
+</body>
+</html>
